@@ -2,7 +2,6 @@
 
 import spidev
 from MPU9250 import MPU9250
-from subprocess import call
 import commands
 import time
 
