@@ -7,7 +7,6 @@ except ImportError:
         print 'sudo apt-get install python-spidev'
         sys.exit(0)
 from MPU9250 import MPU9250
-from subprocess import call
 import commands
 from time import sleep
 
