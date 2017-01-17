@@ -1,4 +1,9 @@
-import spidev
+import sys
+try:
+    import spidev
+except ImportError:
+    print 'sudo apt-get install python-spidev'
+    sys.exit(0)
 import time
 import struct
 import array
